@@ -1,0 +1,88 @@
+*{outline: 1px solid rgba(255,0,0,0.2);}
+
+#container{
+	text-align: center;
+}
+#header{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	background: rgba(255, 255, 255, 1);
+	width: 100%;
+	position: fixed;
+	z-index: 100; 
+}
+.nav{
+	display: inline-block;
+	width: 150px;
+	font-size: 20px;
+}
+#header a{
+	color: #000;
+	text-decoration: none;
+}
+#name{
+	background: url("../images/background.jpg");
+	padding-top: 120px;
+	padding-bottom: 70px;
+	color: #fff;
+}
+.nombre{
+	font-size: 50px;
+	padding: 30px;
+}
+.frase{
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+h1{
+	color: #571677;
+}
+#about{
+	background: url("../images/tile1.png");
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+#about img{
+	height: 200px;
+}
+.texto{
+	text-align: left;
+	padding: 50px;
+}
+#things{
+	padding-top: 100px;
+	padding-bottom: 60px;
+	color: #571677;
+}
+#things p{
+	padding: 15px;
+}
+.grande{
+	padding: 20px;
+	height: 300px;
+	overflow: scroll;
+}
+.favoritos img{
+	width: 240px;
+	height: 240px;
+	border-radius: 100%;
+	border: 1px solid #39075C;
+	padding: 3px;
+	margin: 15px;
+}
+#footer{
+	background: url("../images/tile2.png");
+	padding: 50px;
+}
+.icono{
+	display: inline-block;
+	margin: 30px;
+}
+.icono img{
+	width: 100px;
+	height: 100px;
+}
+
+
